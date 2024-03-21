@@ -13,9 +13,9 @@ def translate(query, to, source="auto", action=0):
 
     Args:
         query (String): 要翻译的内容
-        to (String): 目标语言
-        source (str, optional): 来源语言. Defaults to "auto".
-        action (int, optional): 是否用术语库干预翻译结果(需使用高级版及以上的api). Defaults to 0.
+        to (String): 目标语言(zh,en,jp,fra.....)(具体请参考readme)
+        source (str, optional): 来源语言. Defaults to "auto".(具体请参考readme)
+        action (int, optional): 是否用术语库干预翻译结果(是为1,否为0,需使用高级版及以上的api). Defaults to 0.
 
     Returns:
         String: 翻译结果或错误详情
